@@ -8,6 +8,8 @@ public interface ProductService {
 
   List<Product> findAllProducts();
 
+  List<Product> findAllProducts(String filter);
+
   Product createProduct(String title, String details);
 
   Optional<Product> findProduct(int productId);
