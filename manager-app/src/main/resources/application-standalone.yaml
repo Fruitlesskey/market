@@ -5,9 +5,9 @@ services:
     password: password
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/catalogue
-    username: catalogue
-    password: catalogue
+    url: jdbc:postgresql://localhost:5433/manager
+    username: manager
+    password: manager
     driver-class-name: org.postgresql.Driver
   liquibase:
     change-log: classpath:db/changelog/db.changelog-master.yaml
