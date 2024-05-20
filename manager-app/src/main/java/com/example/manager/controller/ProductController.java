@@ -5,6 +5,7 @@ import com.example.manager.client.ProductsRestClient;
 import com.example.manager.controller.payload.UpdateProductPayload;
 import com.example.manager.entity.Product;
 import jakarta.servlet.http.HttpServletResponse;
+import java.security.Principal;
 import java.util.Locale;
 import java.util.NoSuchElementException;
 import lombok.RequiredArgsConstructor;
@@ -35,7 +36,7 @@ public class ProductController {
   }
 
   @GetMapping
-  public String getProduct() {
+  public String getProduct(Principal principal) {
     return "catalogue/products/product";
   }
 

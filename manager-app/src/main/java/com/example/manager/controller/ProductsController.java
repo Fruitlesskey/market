@@ -4,7 +4,10 @@ import com.example.manager.client.BadRequestException;
 import com.example.manager.client.ProductsRestClient;
 import com.example.manager.controller.payload.NewProductPayload;
 import com.example.manager.entity.Product;
+import java.security.Principal;
+import java.util.logging.Logger;
 import lombok.RequiredArgsConstructor;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -22,7 +25,9 @@ public class ProductsController {
   private final ProductsRestClient productsRestClient;
 
   @GetMapping("list")
-  public String getProductsList(Model model, @RequestParam(name = "filter", required = false) String filter) {
+  public String getProductsList(Model model, @RequestParam(name = "filter",
+      required = false) String filter, Principal principal) {
+    LoggerFactory.getLogger(ProductsController.class).info("User {}",principal);
     model.addAttribute("products", this.productsRestClient.findAllProducts(filter));
     model.addAttribute("filter", filter);
     return "catalogue/products/list";

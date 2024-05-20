@@ -3,15 +3,20 @@ server:
 
 spring:
   security:
-    user:
-      name: catalogue_service_user
-      password: password
-      roles:
-        - SERVICE
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8082/realms/master
+  #    user:
+#      name: catalogue_service_user
+#      password: password
+#      roles:
+#        - SERVICE
   datasource:
     url: jdbc:postgresql://localhost:5432/catalogue
     username: catalogue
     password: catalogue
+    driver-class-name: org.postgresql.Driver
   liquibase:
     change-log: classpath:db/changelog/db.changelog-master.yaml
   jpa:
