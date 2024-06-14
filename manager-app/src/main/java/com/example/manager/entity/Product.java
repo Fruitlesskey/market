@@ -1,10 +1,3 @@
 package com.example.manager.entity;
 
-public record Product(
-  String title,
-
-  String details,
-
-  int id) {
-
-}
+public record Product(int id, String title, String details) {}

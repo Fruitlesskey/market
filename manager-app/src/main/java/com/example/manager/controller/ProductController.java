@@ -36,7 +36,7 @@ public class ProductController {
   }
 
   @GetMapping
-  public String getProduct(Principal principal) {
+  public String getProduct() {
     return "catalogue/products/product";
   }
 
@@ -48,14 +48,16 @@ public class ProductController {
   @PostMapping("edit")
   public String updateProduct(@ModelAttribute(name = "product", binding = false) Product product,
       UpdateProductPayload payload,
-      Model model) {
-      try {
+      Model model,
+      HttpServletResponse response) {
+    try {
       this.productsRestClient.updateProduct(product.id(), payload.title(), payload.details());
       return "redirect:/catalogue/products/%d".formatted(product.id());
     } catch (BadRequestException exception) {
-        model.addAttribute("payload", payload);
-        model.addAttribute("errors", exception.getErrors());
-        return "catalogue/products/edit";
+      response.setStatus(HttpStatus.BAD_REQUEST.value());
+      model.addAttribute("payload", payload);
+      model.addAttribute("errors", exception.getErrors());
+      return "catalogue/products/edit";
     }
   }
 

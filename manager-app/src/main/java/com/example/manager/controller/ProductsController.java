@@ -4,10 +4,12 @@ import com.example.manager.client.BadRequestException;
 import com.example.manager.client.ProductsRestClient;
 import com.example.manager.controller.payload.NewProductPayload;
 import com.example.manager.entity.Product;
+import jakarta.servlet.http.HttpServletResponse;
 import java.security.Principal;
 import java.util.logging.Logger;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -25,9 +27,7 @@ public class ProductsController {
   private final ProductsRestClient productsRestClient;
 
   @GetMapping("list")
-  public String getProductsList(Model model, @RequestParam(name = "filter",
-      required = false) String filter, Principal principal) {
-    LoggerFactory.getLogger(ProductsController.class).info("User {}",principal);
+  public String getProductsList(Model model, @RequestParam(name = "filter", required = false) String filter) {
     model.addAttribute("products", this.productsRestClient.findAllProducts(filter));
     model.addAttribute("filter", filter);
     return "catalogue/products/list";
@@ -40,24 +40,16 @@ public class ProductsController {
 
   @PostMapping("create")
   public String createProduct(NewProductPayload payload,
-      BindingResult bindingResult,
-      Model model) {
-    if (bindingResult.hasErrors()) {
+      Model model,
+      HttpServletResponse response) {
+    try {
+      Product product = this.productsRestClient.createProduct(payload.title(), payload.details());
+      return "redirect:/catalogue/products/%d".formatted(product.id());
+    } catch (BadRequestException exception) {
+      response.setStatus(HttpStatus.BAD_REQUEST.value());
       model.addAttribute("payload", payload);
-      model.addAttribute("errors", bindingResult.getAllErrors().stream()
-          .map(ObjectError::getDefaultMessage)
-          .toList());
+      model.addAttribute("errors", exception.getErrors());
       return "catalogue/products/new_product";
-    } else {
-      try {
-        Product product = this.productsRestClient.createProduct(payload.title(), payload.details());
-        return "redirect:/catalogue/products/%d".formatted(product.id());
-      } catch (BadRequestException exception) {
-        model.addAttribute("payload", payload);
-        model.addAttribute("errors", exception.getErrors());
-        return "catalogue/products/new_product";
-      }
     }
   }
-
 }
