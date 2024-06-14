@@ -1,0 +1,31 @@
+services:
+  catalogue:
+    uri: http://localhost:8081
+    registration-id: keycloak
+#    username: catalogue_service_user
+#    password: password
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/manager
+    username: manager
+    password: manager
+    driver-class-name: org.postgresql.Driver
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.yaml
+  security:
+    oauth2:
+      client:
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8082/realms/master
+            user-name-attribute: preferred_username
+        registration:
+          keycloak:
+            provider: keycloak
+            client-id: manager-app
+            client-secret: tTb5Gny8MwJFLJI3HeM9khNIu9IzWb0x
+            scope:
+              - openid
+              - view_catalogue
+              - edit_catalogue
+              - microprofile-jwt

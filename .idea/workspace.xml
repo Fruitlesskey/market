@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c9ae306-17dd-4aaa-a4b5-7bfd83592296" name="Changes" comment="Setup security(JWT, OAuth2, Keycloak)">
+      <change afterPath="$PROJECT_DIR$/catalogue-service/src/test/java/com/example/catalogue/service/DefaultProductServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogue-service/src/main/java/com/example/CatalogueServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue-service/src/main/java/com/example/CatalogueServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogue-service/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue-service/src/main/resources/messages.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Fruitlesskey&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Fruitlesskey/market.git&quot;,
+    &quot;accountId&quot;: &quot;ef28b993-61a1-4c4e-aa74-6fea897cec74&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/3.2.2/spring-boot-autoconfigure-3.2.2.jar!/org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2gbnoW69whsMWTxi3rtmoMn6EJF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JUnit.All in catalogue-service.executor": "Coverage",
+    "JUnit.DefaultProductServiceTest.executor": "Run",
+    "JUnit.ProductControllerIT.deleteProduct_ProductExists_RedirectsToProductsListPage.executor": "Run",
+    "JUnit.ProductControllerIT.getProduct_ProductExists_ReturnsProductPage.executor": "Run",
+    "JUnit.ProductRepositoryIT.executor": "Run",
+    "JUnit.ProductRestControllerIT.findProduct_ProductExists_ReturnsProductsList.executor": "Run",
+    "JUnit.ProductRestControllerIT.updateProduct_RequestIsInvalid_ReturnsBadRequest.executor": "Run",
+    "JUnit.ProductRestControllerTest.executor": "Run",
+    "JUnit.ProductsControllerIT (1).executor": "Run",
+    "JUnit.ProductsControllerIT.executor": "Run",
+    "JUnit.ProductsControllerIT.getNewProductPage_ReturnsProductPage.executor": "Run",
+    "JUnit.ProductsControllerIT.getProductsList_ReturnsProductsListPage.executor": "Run",
+    "JUnit.ProductsControllerTest.createProduct_RequestIsInvalid_ReturnsProductFormWithErrors.executor": "Run",
+    "JUnit.ProductsControllerTest.createProduct_RequestIsValid_ReturnsRedirectionToProductPage.executor": "Coverage",
+    "JUnit.ProductsControllerTest.executor": "Coverage",
+    "JUnit.ProductsRestControllerTestIT.createProduct_RequestIsValid_ReturnsNewProduct.executor": "Run",
+    "JUnit.ProductsRestControllerTestIT.createProduct_RequestIsValid_ReturnsProblemDetail.executor": "Run",
+    "JUnit.ProductsRestControllerTestIT.createProduct_UserIsNotAuthorized_ReturnsForbidden.executor": "Run",
+    "JUnit.ProductsRestControllerTestIT.findProductsReturnsProductsList.executor": "Run",
+    "JUnit.controller in manager-app.executor": "Coverage",
+    "Maven.catalogue-service [clean].executor": "Run",
+    "Maven.catalogue-service [install].executor": "Run",
+    "Maven.catalogue-service [verify].executor": "Run",
+    "Maven.manager-app [clean].executor": "Run",
+    "Maven.market [clean].executor": "Run",
+    "Maven.market [install].executor": "Run",
+    "Maven.market [verify].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.CatalogueServiceApplication.executor": "Run",
+    "Spring Boot.ManagerApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.catalogue.config" />
+      <recent name="com.example.manager.controller" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.catalogue.repository" />
+      <recent name="com.example.catalogue.controller" />
+      <recent name="com.example.manager.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CatalogueServiceApplication">
+    <configuration name="ProductControllerIT.deleteProduct_ProductExists_RedirectsToProductsListPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="manager-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.manager.controller.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.manager.controller.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.manager.controller.controller.ProductControllerIT" />
+      <option name="METHOD_NAME" value="deleteProduct_ProductExists_RedirectsToProductsListPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRestControllerIT.findProduct_ProductExists_ReturnsProductsList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalogue-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.catalogue.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.catalogue.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.catalogue.controller.ProductRestControllerIT" />
+      <option name="METHOD_NAME" value="findProduct_ProductExists_ReturnsProductsList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductsControllerIT (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="manager-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.manager.controller.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.manager.controller.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.manager.controller.controller.ProductsControllerIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductsControllerIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="manager-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.manager.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.manager.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.manager.controller.ProductsControllerIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="controller in manager-app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="manager-app" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/manager-app/src/test/java/com/example/manager/controller/controller" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogueServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="standalone" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="catalogue-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.CatalogueServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="standalone" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="manager-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ProductControllerIT.deleteProduct_ProductExists_RedirectsToProductsListPage" />
+      <item itemvalue="JUnit.ProductRestControllerIT.findProduct_ProductExists_ReturnsProductsList" />
+      <item itemvalue="JUnit.ProductsControllerIT (1)" />
+      <item itemvalue="JUnit.controller in manager-app" />
+      <item itemvalue="JUnit.ProductsControllerIT" />
+      <item itemvalue="Spring Boot.CatalogueServiceApplication" />
+      <item itemvalue="Spring Boot.ManagerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductRestControllerIT.findProduct_ProductExists_ReturnsProductsList" />
+        <item itemvalue="JUnit.ProductsControllerIT (1)" />
+        <item itemvalue="JUnit.ProductsControllerIT" />
+        <item itemvalue="JUnit.controller in manager-app" />
+        <item itemvalue="JUnit.ProductControllerIT.deleteProduct_ProductExists_RedirectsToProductsListPage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c9ae306-17dd-4aaa-a4b5-7bfd83592296" name="Changes" comment="" />
+      <created>1715975319577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715975319577</updated>
+      <workItem from="1715975321646" duration="655000" />
+      <workItem from="1715987219654" duration="456000" />
+      <workItem from="1716038357051" duration="1301000" />
+      <workItem from="1716045389715" duration="11958000" />
+      <workItem from="1716131383456" duration="15262000" />
+      <workItem from="1716186969468" duration="1146000" />
+      <workItem from="1716189440278" duration="26020000" />
+      <workItem from="1716365465659" duration="23890000" />
+      <workItem from="1716473521291" duration="7752000" />
+      <workItem from="1716532728503" duration="8713000" />
+      <workItem from="1716735705003" duration="13881000" />
+      <workItem from="1716799994851" duration="599000" />
+      <workItem from="1717490179109" duration="1223000" />
+      <workItem from="1717491453471" duration="234000" />
+      <workItem from="1717491702275" duration="1914000" />
+      <workItem from="1717494062028" duration="12890000" />
+      <workItem from="1717741292694" duration="1722000" />
+      <workItem from="1717786091337" duration="624000" />
+      <workItem from="1718275310165" duration="595000" />
+      <workItem from="1718284184914" duration="608000" />
+      <workItem from="1718286774797" duration="1196000" />
+      <workItem from="1718294298139" duration="593000" />
+      <workItem from="1718363070649" duration="1918000" />
+    </task>
+    <task id="LOCAL-00001" summary="Changes in pom">
+      <option name="closed" value="true" />
+      <created>1716134891329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716134891329</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Setup security(JWT, OAuth2, Keycloak)">
+      <option name="closed" value="true" />
+      <created>1716237207019</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716237207019</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Setup security(JWT, OAuth2, Keycloak)">
+      <option name="closed" value="true" />
+      <created>1718363127934</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718363127934</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Setup security(JWT, OAuth2, Keycloak)">
+      <option name="closed" value="true" />
+      <created>1718363182070</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718363182070</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Setup security(JWT, OAuth2, Keycloak)">
+      <option name="closed" value="true" />
+      <created>1718363193575</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718363193575</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Setup security(JWT, OAuth2, Keycloak)">
+      <option name="closed" value="true" />
+      <created>1718363204112</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718363204112</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Setup security(JWT, OAuth2, Keycloak)">
+      <option name="closed" value="true" />
+      <created>1718363224347</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718363224347</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes in pom" />
+    <MESSAGE value="Setup security(JWT, OAuth2, Keycloak)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup security(JWT, OAuth2, Keycloak)" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/market$controller_in_manager_app.ic" NAME="controller in manager-app Coverage Results" MODIFIED="1717494509554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/market$ProductsControllerTest_createProduct_RequestIsValid_ReturnsRedirectionToProductPage.ic" NAME="ProductsControllerTest.createProduct_RequestIsValid_ReturnsRedirectionToProductPage Coverage Results" MODIFIED="1716411899386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.example.manager.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/market$All_in_catalogue_service.ic" NAME="All in catalogue-service Coverage Results" MODIFIED="1717492451073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/market$ProductsControllerTest.ic" NAME="ProductsControllerTest Coverage Results" MODIFIED="1716412602311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.example.manager.controller.*</FILTER>
+    </SUITE>
+  </component>
+</project>

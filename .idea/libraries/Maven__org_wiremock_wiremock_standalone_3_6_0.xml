@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: org.wiremock:wiremock-standalone:3.6.0" type="java-imported" external-system-id="Maven">
+    <properties groupId="org.wiremock" artifactId="wiremock-standalone" version="3.6.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/wiremock/wiremock-standalone/3.6.0/wiremock-standalone-3.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/wiremock/wiremock-standalone/3.6.0/wiremock-standalone-3.6.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/wiremock/wiremock-standalone/3.6.0/wiremock-standalone-3.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,17 @@
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\manager\client\BadRequestException.java
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\manager\client\ProductsRestClient.java
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\manager\client\RestClientProductsRestClient.java
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\manager\config\ClientBeans.java
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\manager\config\CustomOidcUserService.java
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\manager\config\SecurityBeans.java
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\manager\controller\payload\NewProductPayload.java
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\manager\controller\payload\UpdateProductPayload.java
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\manager\controller\ProductController.java
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\manager\controller\ProductsController.java
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\manager\entity\Authority.java
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\manager\entity\Product.java
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\manager\entity\SelmagUser.java
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\manager\repository\SelmagUserRepository.java
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\manager\security\OAuthClientHttpRequestInterceptor.java
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\manager\security\SelmagUserDetailService.java
+C:\Users\astonuser\IdeaProjects\market\manager-app\src\main\java\com\example\ManagerApplication.java

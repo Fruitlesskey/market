@@ -1,0 +1,16 @@
+|===
+|Path|Type|Description
+
+|`+id+`
+|`+int+`
+|Идентификтор товара
+
+|`+title+`
+|`+class java.lang.String+`
+|Название товара
+
+|`+details+`
+|`+class java.lang.String+`
+|Описание товара
+
+|===

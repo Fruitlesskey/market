@@ -1,0 +1,11 @@
+C:\Users\astonuser\IdeaProjects\market\catalogue-service\src\main\java\com\example\catalogue\config\SecurityBeans.java
+C:\Users\astonuser\IdeaProjects\market\catalogue-service\src\main\java\com\example\catalogue\controller\BadRequestControllerAdvice.java
+C:\Users\astonuser\IdeaProjects\market\catalogue-service\src\main\java\com\example\catalogue\controller\payload\NewProductPayload.java
+C:\Users\astonuser\IdeaProjects\market\catalogue-service\src\main\java\com\example\catalogue\controller\payload\UpdateProductPayload.java
+C:\Users\astonuser\IdeaProjects\market\catalogue-service\src\main\java\com\example\catalogue\controller\ProductRestController.java
+C:\Users\astonuser\IdeaProjects\market\catalogue-service\src\main\java\com\example\catalogue\controller\ProductsRestController.java
+C:\Users\astonuser\IdeaProjects\market\catalogue-service\src\main\java\com\example\catalogue\entity\Product.java
+C:\Users\astonuser\IdeaProjects\market\catalogue-service\src\main\java\com\example\catalogue\repository\ProductRepository.java
+C:\Users\astonuser\IdeaProjects\market\catalogue-service\src\main\java\com\example\catalogue\service\DefaultProductService.java
+C:\Users\astonuser\IdeaProjects\market\catalogue-service\src\main\java\com\example\catalogue\service\ProductService.java
+C:\Users\astonuser\IdeaProjects\market\catalogue-service\src\main\java\com\example\CatalogueServiceApplication.java

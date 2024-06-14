@@ -1,0 +1,11 @@
+com\example\catalogue\repository\ProductRepository.class
+com\example\catalogue\controller\payload\NewProductPayload.class
+com\example\catalogue\config\SecurityBeans.class
+com\example\catalogue\service\DefaultProductService.class
+com\example\catalogue\service\ProductService.class
+com\example\CatalogueServiceApplication.class
+com\example\catalogue\controller\ProductRestController.class
+com\example\catalogue\controller\ProductsRestController.class
+com\example\catalogue\controller\BadRequestControllerAdvice.class
+com\example\catalogue\entity\Product.class
+com\example\catalogue\controller\payload\UpdateProductPayload.class

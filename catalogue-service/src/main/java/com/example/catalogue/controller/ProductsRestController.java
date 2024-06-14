@@ -89,7 +89,7 @@ public class ProductsRestController {
       return ResponseEntity.created(
               uriComponentsBuilder
                   .replacePath("/catalogue-api/products/{productId}")
-                  .build(Map.of("productId", product.getId())))
+                  .build(Map.of("productId", product.getId())))//to do: fix this
           .body(product);
     }
   }

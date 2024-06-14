@@ -1,0 +1,7 @@
+com\example\catalogue\service\DefaultProductServiceTest.class
+com\example\catalogue\repository\ProductRepositoryIT.class
+com\example\catalogue\controller\ProductRestControllerIT.class
+com\example\catalogue\controller\ProductsRestControllerTest.class
+com\example\catalogue\controller\ProductsRestControllerTestIT.class
+com\example\catalogue\controller\ProductRestControllerTest.class
+com\example\catalogue\config\TestingBeans.class
