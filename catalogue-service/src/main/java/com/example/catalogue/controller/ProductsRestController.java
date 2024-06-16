@@ -88,7 +88,7 @@ public class ProductsRestController {
       Product product = this.productService.createProduct(payload.title(), payload.details());
       return ResponseEntity.created(
               uriComponentsBuilder
-                  .replacePath("/catalogue-api/products/{productId}")
+                  .replacePath("/catalogue-api/products/{productId}")//to do: replace this
                   .build(Map.of("productId", product.getId())))//to do: fix this
           .body(product);
     }

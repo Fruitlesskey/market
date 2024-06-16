@@ -29,7 +29,7 @@ public class SecurityBeans {
                     .hasAuthority("SCOPE_view_catalogue")
                     .anyRequest()
                     .denyAll())
-        .csrf(CsrfConfigurer::disable)
+        .csrf(CsrfConfigurer::disable)//to do: конфигурировать csrf
         .sessionManagement(
             sessionManagement ->
                 sessionManagement.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
